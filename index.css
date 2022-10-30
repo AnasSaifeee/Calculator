@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.main {
+    background-color: rgb(115, 163, 242);
+    height: 600px;
+    width: 300px;
+    border: solid 1px black;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+
+
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 260px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    transform: translate(20px, 20px);
+    border: none;
+    font-size: 30px;
+
+}
+
+.buttons {
+    height: 250px;
+    width: 260px;
+    border-radius: 10px;
+    transform: translate(23px, 35px);
+  
+
+}
+
+button {
+    width: 40px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 2px 2px 10px black;
+   
+}
+
+.clear button {
+    width: 80px;
+    background-color: red;
+}
+
+.del button {
+    width: 65px;
+}
+
+button:hover {
+    background-color: rgb(0, 226, 68);
+}
